@@ -1,6 +1,7 @@
 body{
-    
+    background-image: url(/body.jpg);
     font-family: sans-serif;
+
 }
 
 .contenedor{
@@ -30,16 +31,18 @@ p{
     margin: 1rem;
 }
 .d1{
+    color: red;
     font-style: italic;
     font-family: sans-serif;
-    background-color: none;
+    background-color: black;
     width: 200px;
     margin-left: auto;
     margin-right: auto;
 }
 .hijodos{
-    color: white;
-   background-color: darkred;
+
+    color: black;
+   background-color: red;
    width: 400px;
    margin: 0 auto;
 
@@ -59,16 +62,15 @@ p{
 
 .hijofn{
     font-size: 50px;
-     background-image: url();
+    background-color: black;
     color: black;
     text-size-adjust: 500px;
     text-align: center;
-    color: whitesmoke;
+    color: red;
     margin: 0 auto;
 }
 
-body{
-    background: url(body.jpg);
+.btn-wsp{
+    color: black;
 }
-
     
