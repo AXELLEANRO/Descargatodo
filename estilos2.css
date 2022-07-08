@@ -2,7 +2,7 @@ body{
     font-family: sans-serif;
 }
 
-.contenedor {
+.contenedor{
     background-color: darkred;
     height: 50vh;
     margin: 5%;
@@ -20,3 +20,25 @@ p{
     width: 50%;
 
 }
+.lola{
+    background-color: darkred;
+    border: 1px solid #ccc;
+    padding: 0 1rem;
+    margin: 1rem;
+}
+.d1{
+    font-style: italic;
+    font-family: sans-serif;
+    background-color: none;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hijodos{
+    color: white;
+   background-color: darkred;
+   width: 400px;
+   margin: 0 auto;
+
+}
+    
