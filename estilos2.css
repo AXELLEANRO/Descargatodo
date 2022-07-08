@@ -1,0 +1,22 @@
+body{
+    font-family: sans-serif;
+}
+
+.contenedor {
+    background-color: darkred;
+    height: 50vh;
+    margin: 5%;
+    font-size: 70px;
+    font-style: italic;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+p{
+    width: 50%;
+
+}
