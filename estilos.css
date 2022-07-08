@@ -1,36 +1,49 @@
-*{
-	margin: 0;
-	padding: 0;
-	font-family: 'Poppins', sans-serif;
-}
-
 body{
-	background-image: linear-gradient(135deg,#00B7D4, #505488, #2F3F80, #161569,#5A4894, #A950A1, #FF7CAE);
-	background-size: 500%;
-	animation: fanimado 10s infinite;
+	font-family: sans-serif;
+	margin: 0;
 }
 
-.texto{
+a{
+	text-decoration: none;
+	color: black;
+}
+
+header{
+	display: flex;
+	min-height: 70px;
+	background: red;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+
+}
+
+.logo{
+	display: flex;
+	align-items: center;
+}
+
+.logo img{
+	height: 50px;
+	margin-right: 10px;
+}
+
+nav a{
+	font-weight: 600;
+	padding-right: 10px;
+}
+
+nav a:hover{
 	color: white;
-	text-align: center;
-	margin: 300px 0;
-	font-size: 19px;
 }
 
-@keyframes fanimado{
-	0%{
-		background-position: 0% 50%;
-	}
-	 50%{
-	 	background-position: 100% 50%;
-
-	 }
-	 100%{
-	 	background-position: 0% 50%;
-	 }
+@media (max-width: 700px){
+	header{
+		filex-direction: column;
 	}
 
- .center {
- 	text-align: center;
- 	display:inline; 
- }
+	nav{
+		padding: 10px 0px; 
+	}
+
+}
