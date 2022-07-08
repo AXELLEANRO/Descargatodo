@@ -1,4 +1,5 @@
 body{
+    
     font-family: sans-serif;
 }
 
@@ -21,6 +22,8 @@ p{
 
 }
 .lola{
+    
+    font-style: italic;
     background-color: darkred;
     border: 1px solid #ccc;
     padding: 0 1rem;
@@ -41,4 +44,31 @@ p{
    margin: 0 auto;
 
 }
+.padre {
+    text-align: center;
+}
+
+.hijouno {
+    background-color: red;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+
+}
+
+.hijofn{
+    font-size: 50px;
+     background-image: url();
+    color: black;
+    text-size-adjust: 500px;
+    text-align: center;
+    color: whitesmoke;
+    margin: 0 auto;
+}
+
+body{
+    background: url(body.jpg);
+}
+
     
