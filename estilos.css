@@ -1,6 +1,7 @@
 body{
 	font-family: sans-serif;
 	margin: 0;
+	background-image: url(body.jpg);
 }
 
 a{
@@ -37,7 +38,7 @@ nav a:hover{
 	color: white;
 }
 
-@media (max-width: 700px){
+@media (max-width: 700px)
 	header{
 		filex-direction: column;
 	}
