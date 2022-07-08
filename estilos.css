@@ -46,4 +46,10 @@ nav a:hover{
 		padding: 10px 0px; 
 	}
 
+.lola {
+	background-color: #fafafa;
+	margin: 1rem;
+	padding: 1rem;
+	border: 2px solid #ccc;
+	text-align: center;
 }
